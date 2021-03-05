@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <meta charset="UTF-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/33e7ba0ce6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/style.css">
   <title>Netmatters | Full Service Digital Agency | Norwich, Norfolk | Netmatters</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <header>
  <div class="header-container">
    <div class="header-container-top">
       <img src="header-images/netmatters-logo.png">
+
       <i class="fas fa-phone-volume"></i>
       <img src="header-images/menu.png">
+
    </div>
    <!--
         <button class="header-buttons header-support"><i class="fas fa-mouse"></i> SUPPORT</button>
@@ -31,6 +34,7 @@
           </form>
             <button class="header-search-button"> <i class="fas fa-search"></i></button>
         </div>
+    </div>
 </header>
   -->
   <body>
@@ -139,33 +143,40 @@
 
 
      <div class="bio">
-         <div class="bio-box"><h1>NETMATTERS</h1></div><br>
-         <div class="bio-box"><p><strong>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.</strong></p></div>
-         <div class="bio-box"><p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing leads and further grow their sales.</p></div>
-         <div class="bio-box"><p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems, workflow and IT solutions through to creative website development and integrated digital campaigning.<p></div>
-         <div class="bio-button"><button>OUR CULTURE <i class="fas fa-arrow-right"></i></button></div>
-      </div>
+        <h1>NETMATTERS</h1><br>
+         <p><strong>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.</strong></p><br>
+         <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing leads and further grow their sales.</p><br>
+         <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems, workflow and IT solutions through to creative website development and integrated digital campaigning.</p><br>
+         <span><button class="bio-button">OUR CULTURE   <i class="fas fa-arrow-right"></i></button></span>
+       </div>
+
+
+
 <div class="latest-master">
   <div class="latest-container">
-    <h1 class="latest-header">LATEST<h1>
+    <h3 class="latest-header">LATEST<h3>
     <div class="latest-bar"></div>
   </div>
 </div>
 
 <div class="news">
-  <div class="news-cards">
+  <div class="card-head">
     <img class="card-image" src="news-images/1.png">
+    <button class="card-head-button"><strong>NEWS</strong></button>
+  </div>
+
+  <div class="news-cards">
     <p>Faizel Achieves the Long Service Award</p>
     <p>Netmatters would like to take this time to congratulate our Commercial Head of Web, Faizel De...</p>
     <button class="hero-button">READ MORE</button>
     <div class="grey-bar"></div>
-    <div class="logo-date">
-      <img src="news-images/logo-small.png">
-      <p>Posted by Netmatters Ltd 26th<br> February 2021</p>
-    </div>
+      <div class="logo-date">
+        <img src="news-images/logo-small.png">
+        <p>Posted by Netmatters Ltd 26th<br> February 2021</p>
+      </div>
   </div>
+  <img class="card-image" src="news-images/2.png">
   <div class="news-cards">
-    <img class="card-image" src="news-images/2.png">
     <p>Congratulations to Adam Lyon for Graduating t...</p>
     <p>We are pleased to announce that after spending 9 months on our Scion Coalition Scheme (scs)...</p>
     <button class="hero-button">READ MORE</button>
@@ -175,8 +186,8 @@
       <p>Posted by Netmatters Ltd 26th<br> February 2021</p>
     </div>
   </div>
+  <img class="card-image" src="news-images/3.png">
   <div class="news-cards">
-    <img class="card-image" src="news-images/3.png">
     <p>Clapham &amp; Collinge Case Study</p>
     <p>Digital marketing is a fantastic way to help improve the presence of your brand across a rang...</p>
     <button class="hero-button">READ MORE</button>
@@ -199,14 +210,18 @@
 
 
       <form action="index.html" class="signup">
-        <h1>Email Newsletter Sign-up</h1>
+        <h2>Email Newsletter Sign-up</h2>
 
-          <label for="name">Your Name *</label>
-          <input type="text" id="name" name="user_name"><br>
+          <label for="name"><strong>Your Name *</strong></label>
+          <input type="text" id="name" name="user_name" class="signup-field" ><br>
           <label for="email">Your Email *</label>
-          <input type="email" id="email" name="user_email"><br>
-          <input type="radio"><label>Please tick this box if you wish to receive marketing information from us. Please see our <a href='#top'>Privacy Policy</a> for more information on how we use your data.</label><br>
-          <button>Subscribe</button>
+          <input type="email" id="email" name="user_email" class="signup-field" ><br>
+
+          <div class="checkbox">
+          <input type="radio">
+          <strong>Please tick this box if you wish to receive marketing information from us. Please see our <a href='#top'>Privacy Policy</a> for more information on how we use your data.</strong>
+          </div class="checkbox">
+          <button class="subscribe-button">SUBSCRIBE</button>
       </form>
 
 
@@ -247,7 +262,7 @@
               <li>Norfolk</li>
               <li>NR18 0WZ</li><br>
               <li>Tel: 01603 70 40 20<li>
-              <li>Email: <a href="mailto:supports@netmatters.com">support@netmatters.com</a></li>
+              <li>Email: <a href="mailto:supports@netmatters.com" class="text-white">support@netmatters.com</a></li>
             </ul>
           </div>
             <div class="info-block">
@@ -297,5 +312,5 @@
        <img src="partner-images/skills-of-tomorrow-grey.jpg">
      </div>
    </div>
-  </body>
+ </body>
 </html>
