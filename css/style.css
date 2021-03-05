@@ -1,4 +1,4 @@
-/* line 4, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 5, ../../../Desktop/netmatters2/scss/style.scss */
 body {
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
@@ -6,12 +6,12 @@ body {
   color: #666;
 }
 
-/* line 10, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 11, ../../../Desktop/netmatters2/scss/style.scss */
 h2 {
   font-weight: 400px;
 }
 
-/* line 14, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 15, ../../../Desktop/netmatters2/scss/style.scss */
 .header-container {
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@ h2 {
   max-width: 100%;
 }
 
-/* line 21, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 22, ../../../Desktop/netmatters2/scss/style.scss */
 .header-container-top {
   display: flex;
   flex-direction: row;
@@ -27,7 +27,7 @@ h2 {
   margin-bottom: 25px;
 }
 
-/* line 29, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 30, ../../../Desktop/netmatters2/scss/style.scss */
 .header-container-bottom {
   flex-direction: row;
   max-width: 100%;
@@ -37,7 +37,7 @@ h2 {
   align-items: stretch;
 }
 
-/* line 37, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 38, ../../../Desktop/netmatters2/scss/style.scss */
 .search-size {
   display: flex;
   flex-grow: 9;
@@ -49,7 +49,7 @@ h2 {
   border-bottom-left-radius: 5px;
 }
 
-/* line 49, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 50, ../../../Desktop/netmatters2/scss/style.scss */
 .header-search-button {
   height: 3.4rem;
   width: 3.4rem;
@@ -77,7 +77,7 @@ h2 {
  gap: 20px;
 }
 */
-/* line 79, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 80, ../../../Desktop/netmatters2/scss/style.scss */
 .header-buttons {
   border-radius: 5px;
   padding: 5 15;
@@ -87,13 +87,13 @@ h2 {
   height: 3.5rem;
 }
 
-/* line 88, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 89, ../../../Desktop/netmatters2/scss/style.scss */
 .header-support {
   background-color: #4183d7;
   border: none;
 }
 
-/* line 93, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 94, ../../../Desktop/netmatters2/scss/style.scss */
 .header-contact {
   background-color: #999aa2;
   border: none;
@@ -115,12 +115,12 @@ h2 {
   font-size: 1.15rem;
 }
 */
-/* line 114, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 115, ../../../Desktop/netmatters2/scss/style.scss */
 .small {
   font-size: 0.5rem;
 }
 
-/* line 117, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .navbar {
   display: flex;
   justify-content: center !important;
@@ -128,7 +128,7 @@ h2 {
   padding: 0px !important;
 }
 
-/* line 124, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 125, ../../../Desktop/netmatters2/scss/style.scss */
 .navbar-box {
   list-style-type: none;
   background-color: #333645;
@@ -141,13 +141,22 @@ h2 {
   margin-bottom: 0px;
 }
 
-/* line 136, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 137, ../../../Desktop/netmatters2/scss/style.scss */
 .hero {
+  background: url("../bio-image/bio-web.jpg") no-repeat center;
+  background-size: cover;
+  height: 740px;
+}
+
+/* line 143, ../../../Desktop/netmatters2/scss/style.scss */
+.hero-text {
   text-align: center;
   max-width: 100%;
+  color: #FFFFFF;
+  padding: 300px 15px;
 }
 
-/* line 148, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 157, ../../../Desktop/netmatters2/scss/style.scss */
 .hero-button {
   color: #FFFFFF;
   background-color: #C8A2C8;
@@ -156,16 +165,7 @@ h2 {
   border-style: none;
 }
 
-/* line 152, ../../../Desktop/netmatters2/scss/style.scss */
-.hero-button {
-  color: #FFFFFF;
-  background-color: #C8A2C8;
-  padding: 10px;
-  border-radius: 5px;
-  border-style: none;
-}
-
-/* line 160, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 163, ../../../Desktop/netmatters2/scss/style.scss */
 .bio {
   max-width: 100%;
   color: #FFFFFF;
@@ -174,7 +174,7 @@ h2 {
   line-height: 2;
 }
 
-/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 173, ../../../Desktop/netmatters2/scss/style.scss */
 .bio-button {
   background-color: #fff;
   padding: 10px 20px;
@@ -183,33 +183,34 @@ h2 {
   color: #333645;
 }
 
-/* line 176, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 181, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-master {
   display: flex;
   flex-direction: row;
 }
 
-/* line 180, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 185, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-container {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
 }
 
-/* line 186, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 191, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-header {
   padding-top: 30px;
-  padding-bottom: 30px;
+  color: #000000;
 }
 
-/* line 190, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 196, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-bar {
+  margin-top: 30px;
   height: 5px;
   max-width: 100%;
   background-color: #000000;
 }
 
-/* line 197, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 204, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-container {
   display: flex;
   justify-content: center;
@@ -218,12 +219,12 @@ h2 {
 }
 
 /*background circle on cards */
-/* line 214, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 221, ../../../Desktop/netmatters2/scss/style.scss */
 .movedown {
   line-height: 3.5rem;
 }
 
-/* line 218, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 225, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-bespoke {
   height: 60px;
   width: 60px;
@@ -235,7 +236,7 @@ h2 {
   background-color: #67809f;
 }
 
-/* line 223, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 230, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-it {
   height: 60px;
   width: 60px;
@@ -247,7 +248,7 @@ h2 {
   background-color: #4183d7;
 }
 
-/* line 228, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 235, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-digital {
   height: 60px;
   width: 60px;
@@ -259,7 +260,7 @@ h2 {
   background-color: #2ecc71;
 }
 
-/* line 233, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 240, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-telecoms {
   height: 60px;
   width: 60px;
@@ -271,7 +272,7 @@ h2 {
   background-color: #d64541;
 }
 
-/* line 238, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-web {
   height: 60px;
   width: 60px;
@@ -283,7 +284,7 @@ h2 {
   background-color: #C8A2C8;
 }
 
-/* line 243, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 250, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-cyber {
   height: 60px;
   width: 60px;
@@ -295,7 +296,7 @@ h2 {
   background-color: #f62459;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 255, ../../../Desktop/netmatters2/scss/style.scss */
 .circle-dev {
   height: 60px;
   width: 60px;
@@ -307,7 +308,7 @@ h2 {
   background-color: #C8A2C8;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 275, ../../../Desktop/netmatters2/scss/style.scss */
 .cards {
   /* creates the cards */
   text-align: center;
@@ -322,7 +323,7 @@ h2 {
   margin-right: 10px;
 }
 
-/* line 272, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-bar {
   /*black bar for cards */
   height: 3px;
@@ -330,9 +331,10 @@ h2 {
   background-color: #000000;
   margin-left: 45%;
   margin-right: 45%;
+  margin-bottom: 20px;
 }
 
-/* line 287, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-bespoke {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -342,7 +344,7 @@ h2 {
   background-color: #67809f;
 }
 
-/* line 292, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 300, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-it {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -352,7 +354,7 @@ h2 {
   background-color: #4183d7;
 }
 
-/* line 297, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 305, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-digital {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -362,7 +364,7 @@ h2 {
   background-color: #2ecc71;
 }
 
-/* line 302, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-telecoms {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -372,7 +374,7 @@ h2 {
   background-color: #d64541;
 }
 
-/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 315, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-web {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -382,7 +384,7 @@ h2 {
   background-color: #C8A2C8;
 }
 
-/* line 312, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 320, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-cyber {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -392,7 +394,7 @@ h2 {
   background-color: #f62459;
 }
 
-/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 325, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-button-dev {
   /*button without colour for cards, below is each background colour */
   color: #FFFFFF;
@@ -402,7 +404,7 @@ h2 {
   background-color: #C8A2C8;
 }
 
-/* line 325, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 333, ../../../Desktop/netmatters2/scss/style.scss */
 .news {
   max-width: 100%;
   display: flex;
@@ -412,7 +414,7 @@ h2 {
   margin-right: 10px;
 }
 
-/* line 349, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards {
   text-align: left;
   height: 65%;
@@ -426,7 +428,7 @@ h2 {
   border-top: none;
 }
 
-/* line 353, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 361, ../../../Desktop/netmatters2/scss/style.scss */
 .card-image {
   object-fit: contain;
   max-width: 100%;
@@ -434,7 +436,7 @@ h2 {
   border-top-right-radius: 5px;
 }
 
-/* line 360, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 368, ../../../Desktop/netmatters2/scss/style.scss */
 .card-head .card-head-button {
   background-color: #C8A2C8;
   right: 100%;
@@ -444,15 +446,15 @@ h2 {
   padding: 3px 10px;
   z-index: 1;
   position: absolute;
-  transform: translate(300px, 10px);
+  transform: translate(313px, 10px);
 }
 
-/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 380, ../../../Desktop/netmatters2/scss/style.scss */
 .card-head {
   position: relative;
 }
 
-/* line 377, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 385, ../../../Desktop/netmatters2/scss/style.scss */
 .grey-bar {
   max-width: 100%;
   background-color: #ccc;
@@ -461,14 +463,14 @@ h2 {
   margin-bottom: 30px;
 }
 
-/* line 385, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 393, ../../../Desktop/netmatters2/scss/style.scss */
 .logo-date {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-/* line 392, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 400, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors {
   display: flex;
   flex-direction: row;
@@ -477,25 +479,25 @@ h2 {
   background-image: linear-gradient(red, yellow);
 }
 
-/* line 400, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 408, ../../../Desktop/netmatters2/scss/style.scss */
 .signup {
   color: #333645;
   padding: 50px 40px;
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* line 406, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 414, ../../../Desktop/netmatters2/scss/style.scss */
 .signup-field {
   margin-left: 5px 40px;
 }
 
-/* line 409, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 417, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox {
   display: flex;
   flex-direction: row;
 }
 
-/* line 414, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 422, ../../../Desktop/netmatters2/scss/style.scss */
 .subscribe-button {
   background-color: #333645;
   padding: 10px 15px;
@@ -505,7 +507,7 @@ h2 {
 }
 
 /*footer*/
-/* line 423, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 431, ../../../Desktop/netmatters2/scss/style.scss */
 .footer-container {
   background-color: #333645;
   color: #FFFFFF;
@@ -516,23 +518,23 @@ h2 {
   padding: 5%;
 }
 
-/* line 433, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 441, ../../../Desktop/netmatters2/scss/style.scss */
 .info-block ul {
   padding: 0%;
 }
 
-/* line 437, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 445, ../../../Desktop/netmatters2/scss/style.scss */
 .info-box {
   list-style-type: none;
 }
 
-/* line 441, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 449, ../../../Desktop/netmatters2/scss/style.scss */
 .info-block {
   display: flex;
   flex-direction: column;
 }
 
-/* line 446, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 454, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block {
   background-color: #333645;
   color: #FFFFFF;
@@ -542,7 +544,7 @@ h2 {
   max-height: 100%;
 }
 
-/* line 455, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 463, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block ul {
   margin: 0%;
   padding: 0%;
@@ -550,7 +552,7 @@ h2 {
   flex-wrap: wrap;
 }
 
-/* line 463, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 471, ../../../Desktop/netmatters2/scss/style.scss */
 .socials {
   padding: 0.8rem 4rem;
   color: #FFFFFF;
@@ -563,47 +565,47 @@ h2 {
   font-size: 2rem;
 }
 
-/* line 478, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 486, ../../../Desktop/netmatters2/scss/style.scss */
 .facebook:hover {
   background-color: #4267B2;
 }
 
-/* line 482, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 490, ../../../Desktop/netmatters2/scss/style.scss */
 .twitter:hover {
   background-color: #1DA1F2;
 }
 
-/* line 486, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 494, ../../../Desktop/netmatters2/scss/style.scss */
 .linkedin:hover {
   background-color: #2867b2;
 }
 
 /*partners*/
-/* line 493, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 501, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images {
   margin: 50px 375px;
 }
 
-/* line 497, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 505, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images-1 {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 
-/* line 503, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 511, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images-2 {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
-/* line 509, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 517, ../../../Desktop/netmatters2/scss/style.scss */
 .hide {
   display: none;
 }
 
-/* line 512, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 520, ../../../Desktop/netmatters2/scss/style.scss */
 .hide:hover .overlay {
   display: block;
 }
@@ -611,7 +613,7 @@ h2 {
 /* media queries */
 /*hides sponsors & partners for mobile viewing */
 @media screen and (min-width: 0px) and (max-width: 1024px) {
-  /* line 521, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 529, ../../../Desktop/netmatters2/scss/style.scss */
   .partner-images, .sponsors, .navbar, .navbar-box, .header-buttons, .header-support, .header-contact {
     display: none;
   }
