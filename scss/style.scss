@@ -1,4 +1,8 @@
 
+* {
+  box-sizing: border-box;
+}
+
 @import '_variables';
 
 
@@ -7,25 +11,47 @@ body {
   font-family: 'Poppins', sans-serif;
   letter-spacing: .4px;
   color: #666;
+  line-height: 1.42857143;
 }
- h2 {
-   font-weight: 400px;
- }
 
+/*
 .header-container {
   display: flex;
   flex-direction: column;
   padding: 20px 15px;
   max-width: 100%;
+  align-items: center;
 }
 
-.header-container-top {
+.header-container .top {
  display: flex;
  flex-direction: row;
  max-width: 100%;
  margin-bottom: 25px;
 }
 
+.header-container > .top  > .logo {
+  object-fit: contain;
+  max-width: 100%;
+}
+*/
+ .header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  max-width: 100%;
+  align-items: center;
+  .top {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-bottom: 25px;
+    .logo {
+      object-fit: contain;
+      max-width: 100%;
+    }
+  }
+}
 
 .header-container-bottom {
   flex-direction: row;
@@ -218,6 +244,7 @@ body {
   color: #FFFFFF;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  justify-content: center;
 } /*background circle on cards */
 
 .movedown {
@@ -262,7 +289,7 @@ body {
 
 @mixin cards { /* creates the cards */
   text-align: center;
-  height: 20rem;
+  max-height: none;
   max-width: 100%;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -361,6 +388,10 @@ body {
     @include news-cards;
 }
 
+.news-cards .title {
+  color: $purple;
+}
+
 .card-image {
   object-fit: contain;
   max-width: 100%;
@@ -397,7 +428,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 0.8rem;
+  float: left;
+  font-size: 0.9rem;
+  max-height: 47px;
+}
+
+.logo-date .date {
+  display: flex;
+  flex-direction: column;
 }
 
 .small-logo {
@@ -424,25 +462,26 @@ body {
 .signup-field {
   margin-left: 5px 40px;
 }
-.checkbox {
+
+
+.checkbox-area {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
+  margin-top: 5px;
 }
 
 
 .checkbox {
   display: block;
   position: relative;
-  padding-left: 50px;
-  cursor: pointer;
   margin-top: 10px;
+  cursor: pointer;
+  padding-right: 30px;
 }
 
 /* hide original tickbox */
 .checkbox input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
 }
 
 /* custom tickbox */
@@ -457,10 +496,9 @@ body {
 }
 
 
+/*---------------------------------------------------*/
 
-
-
-
+/*signup subscribe button*/
 .subscribe-button {
   background-color: #333645;
   padding: 10px 15px;
@@ -468,6 +506,7 @@ body {
   border: none;
   border-radius: 5px;
 }
+
 
 /*footer*/
 .footer-container {
@@ -477,7 +516,7 @@ body {
   flex-direction: column;
   max-width: 100%;
   max-height: 100%;
-  padding: 5%;
+  padding: 10% 5%;
 }
 
 .info-block ul {
