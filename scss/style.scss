@@ -206,6 +206,7 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 @mixin circle {
@@ -216,6 +217,7 @@ body {
   margin-right: 40%;
   color: #FFFFFF;
   font-size: 1.1rem;
+  margin-bottom: 1rem;
 } /*background circle on cards */
 
 .movedown {
@@ -268,6 +270,8 @@ body {
   padding: 30px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 35px;
+  background-color: #ffffff;
 }
 
 
@@ -424,6 +428,38 @@ body {
   display: flex;
   flex-direction: row;
 }
+
+
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* hide original tickbox */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* custom tickbox */
+.show-tickbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: 3px solid #333645;
+}
+
+
+
+
+
 
 .subscribe-button {
   background-color: #333645;
