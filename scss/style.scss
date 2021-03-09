@@ -1,47 +1,30 @@
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*includes borders in box sizes */
 }
 
-@import '_variables';
+@import '_variables'; /*colour key*/
 
 
-body {
+body { /*base for site*/
   font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   letter-spacing: .4px;
   color: #666;
   line-height: 1.42857143;
+  background-color: rgba(0,0,0,.03);
 }
 
-/*
-.header-container {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 15px;
-  max-width: 100%;
-  align-items: center;
-}
 
-.header-container .top {
- display: flex;
- flex-direction: row;
- max-width: 100%;
- margin-bottom: 25px;
-}
-
-.header-container > .top  > .logo {
-  object-fit: contain;
-  max-width: 100%;
-}
-*/
  .header-container {
   display: flex;
   flex-direction: column;
   padding: 20px 15px;
   max-width: 100%;
   align-items: center;
-  .top {
+  background-color: #FFFFFF;
+
+  .top { /*top half of the header */
     display: flex;
     flex-direction: row;
     max-width: 100%;
@@ -50,15 +33,27 @@ body {
       object-fit: contain;
       max-width: 100%;
       flex-shrink: 1;
+      margin-top: 10px;
       img {
         max-width: 100%;
     }
   }
  }
+ }
+
+ .phone { /*phone icon in header, below class creats underline */
+   font-size: 30px;
+   color: #333645;
+   margin-left: 20px;
+   margin-right: 30px;
+   margin-bottom: 20px;
+   }
+
+.phone:hover {
+  border-bottom: 3px solid #333645;
 }
 
-
-.header-container-bottom {
+.header-container-bottom { /*lower half of the header */
   flex-direction: row;
   width: 100%;
   max-height: 5%;
@@ -71,43 +66,27 @@ body {
 }
 .search-size {
   width: 100%;
-  height: 3.4rem;
-  background-color: #f1f1f1;
+  height: 42px;
   border-right: none;
-  border-color: #ccc;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   float: left;
+  background-color: #d6d6d6;
+  border-color: #999aa2;
 }
 
 .header-search-button {
-  height: 3.4rem;
-  width: 3.4rem;
-  background-color: #f1f1f1;
+  height: 42px;
+  width: 42px;
   color: #333645;
   font-size: 1.5rem;
   border-left: none;
   border-color: #ccc;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-}
+  background-color: #d6d6d6;
 
-/*
-  .header-container {
-  max-width: 100%;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  flex-direction: column;
 }
-
-.header-interactive {
- display: flex;
- justify-content: space-around;
- justify-content: flex-end;
- gap: 20px;
-}
-*/
 
 
 .header-buttons {
@@ -129,22 +108,7 @@ body {
   border: none;
   }
 
-/*
-.search-size {
-  height: 3.3rem;
-  width: 14rem;
-}
 
-.header-search-button {
-  height: 3.5rem;
-  width: 3.5rem;
-  border: none;
-  background-color: #999aa2;
-  border-radius: 5px;
-  color: #FFFFFF;
-  font-size: 1.15rem;
-}
-*/
 .small {
   font-size: 0.5rem;
 }
@@ -167,7 +131,8 @@ body {
   margin-bottom: 0px;
 }
 
-.hero {
+
+.hero { /*hero banner */
   background: url("../bio-image/bio-web.jpg") no-repeat center;
   background-size: cover;
   height: 740px;
@@ -187,12 +152,14 @@ body {
      font-weight: inherit;
    }
 }
-@mixin hero-button {
+@mixin hero-button { /*pointless mixin for hero button, was used elsewhere but deemed redundant */
     color: #FFFFFF;
     background-color: #C8A2C8;
-    padding: 10px;
+    padding: 5px 20px;
     border-radius: 5px;
     border-style: none;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 .hero-button {
@@ -201,7 +168,7 @@ body {
 
 
 
-.bio {
+.bio { /*netmatters bio further down the page */
   max-width: 100%;
   color: #FFFFFF;
   background-color: #333645;
@@ -219,9 +186,10 @@ body {
   color: #333645;
 }
 
-.latest-master {
+.latest-master { /*anything beginning with .latest is for the little bit that literally just says 'latest' with a bar below it */
   display: flex;
   flex-direction: row;
+  background-color: #FFFFFF;
 }
 .latest-container {
   display: flex;
@@ -242,18 +210,19 @@ body {
   height: 5px;
   max-width: 100%;
   background-color: #000000;
-}sdsddsss
+}
 
 
-.cards-container {
+.cards-container { /*7 cards for services netmatters offers */
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.1);
+  padding-top: 20px;
 }
 
-@mixin circle {
+@mixin circle { /*mixin to create the little circle on the cards */
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -265,11 +234,11 @@ body {
   justify-content: center;
 } /*background circle on cards */
 
-.movedown {
+.movedown { /*moves the circle into the right place on Y axis */
   line-height: 3.5rem;
 }
 
-.circle-bespoke {
+.circle-bespoke { /*7x classes to change background of each circle */
   @include circle;
   background-color: $slate;
 }
@@ -317,10 +286,11 @@ body {
   margin-right: 10px;
   margin-bottom: 35px;
   background-color: #ffffff;
+  box-shadow: 0 10px 6px -6px;
 }
 
 
-.cards {
+.cards { /*typography adjustments for the 7 cards */
   @include cards;
   color: #000000;
   h2 {
@@ -340,6 +310,7 @@ body {
   margin-left: 45%;
   margin-right: 45%;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @mixin cards-button { /*button without colour for cards, below is each background colour */
@@ -394,11 +365,13 @@ body {
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 
 
-@mixin news-cards {
+@mixin news-cards { /*creates 3x news cards */
   text-align: left;
   height: 65%;
   max-width: 100%;
@@ -411,22 +384,33 @@ body {
   border-top: none;
 }
 
-.news-cards {
+.news-cards { /*typography for news cards subheading & button */
     @include news-cards;
+  p:nth-child(2) {
+    font-size: 13px;
+  }
+  button {
+    padding: 5px 15px;
+    color: #FFFFFF;
+    background-color: #C8A2C8;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+  }
 }
 
 .news-cards .title {
   color: $purple;
 }
 
-.card-image {
+.card-image { /*image that sits atop the cards */
   object-fit: contain;
   max-width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
 
-.card-head .card-head-button {
+.card-head .card-head-button { /*button for top right of card */
   background-color: $purple;
   right: 100%;
   color: #FFFFFF;
@@ -443,7 +427,7 @@ body {
 }
 
 
-.grey-bar {
+.grey-bar { /*grey bar above news card dates */
   max-width: 100%;
   background-color: #ccc;
   height: 1px;
@@ -451,7 +435,7 @@ body {
   margin-bottom: 30px;
 }
 
-.logo-date {
+.logo-date { /* logo and date stuff */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -463,6 +447,9 @@ body {
 .logo-date .date {
   display: flex;
   flex-direction: column;
+  p:first-of-type {
+    color: #333645;
+  }
 }
 
 .small-logo {
@@ -471,6 +458,7 @@ body {
   width: 47px;
   margin-right: 30px;
 }
+
 
 .sponsors {
   display: flex;
@@ -482,51 +470,63 @@ body {
 
 .signup {
   color: #333645;
-  padding: 50px 40px;
+  padding: 50px 45px;
   background-color: #d6d6d6;
 }
 
 .signup-field {
-  margin-left: 5px 40px;
+  border-radius: 3px;
+  border-color: rgba(85, 85, 85, 0);
+  margin-bottom: 15px;
+  width: 100%;
+  height: 45px;
 }
 
 
 
-.checkbox {
+.checkbox { /*typography for checkbox container */
   display: flex;
   cursor: pointer;
   flex-direction: row;
-  margin-top: 10px;
+  p {
+    font-weight: 600px;
+    line-height: 32px;
+  a {
+    color:inherit;
+    text-decoration: underline;
+    }
+  }
 }
 
-.checkbox-input {
+.checkbox-input { /*hides original checkbox */
   display: none;
 }
 
-.checkbox-box {
+.checkbox-box { /*creates custom checkbox */
   height: 30px;
   width: 30px;
   border-radius: 5px;
   border: 3px solid #333645;
   display: flex;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
-.checkbox-input:checked + .checkbox-box:after {
+
+.checkbox-input:checked + .checkbox-box:after { /*creates a white tick */
   content: '\2714';
   color: #fff;
 }
 
-.checkbox-input:checked + .checkbox-box {
+.checkbox-input:checked + .checkbox-box { /*highlights area in box */
   background-color: #333645;
   color: #ffffff;
   justify-content: center;
 }
-/*---------------------------------------------------*/
 
-/*signup subscribe button*/
-.subscribe-button {
+
+
+.subscribe-button { /*signup subscribe button*/
   background-color: #333645;
   padding: 10px 15px;
   color: #FFFFFF;
@@ -536,6 +536,17 @@ body {
 
 
 /*footer*/
+ footer { /*typography */
+   h4 {
+     font-size: 16px;
+     line-height: 17.6px;
+   }
+   li {
+     font-size: 13px;
+     line-height: 22px;
+   }
+ }
+
 .footer-container {
   background-color: #333645;
   color: #FFFFFF;
@@ -546,7 +557,7 @@ body {
   padding: 10% 5%;
 }
 
-.info-block ul {
+.info-block ul { /*formatting for everything but the socials icons*/
   padding: 0%;
 }
 
@@ -557,6 +568,7 @@ body {
 .info-block{
   display: flex;
   flex-direction: column;
+  margin-bottom: 15px;
 }
 
 .socials-block {
@@ -576,7 +588,7 @@ body {
 }
 
 
-.socials {
+.socials { /*socials icons*/
   padding: 0.8rem 4rem;
   color: #FFFFFF;
   border: none;
@@ -591,7 +603,7 @@ body {
 
 
 
-.facebook:hover {
+.facebook:hover { /*hover colour changes*/
   background-color: #4267B2;
 }
 
