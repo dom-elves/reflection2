@@ -49,28 +49,35 @@ body {
     .logo {
       object-fit: contain;
       max-width: 100%;
+      flex-shrink: 1;
+      img {
+        max-width: 100%;
     }
   }
+ }
 }
+
 
 .header-container-bottom {
   flex-direction: row;
-  max-width: 100%;
+  width: 100%;
   max-height: 5%;
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
+   form {
+     flex-grow: 1;
+   }
 }
 .search-size {
-  display: flex;
-  flex-grow: 9;
+  width: 100%;
   height: 3.4rem;
   background-color: #f1f1f1;
   border-right: none;
   border-color: #ccc;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-
+  float: left;
 }
 
 .header-search-button {
@@ -83,10 +90,10 @@ body {
   border-color: #ccc;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-
 }
 
- /* .header-container {
+/*
+  .header-container {
   max-width: 100%;
   display: flex;
   margin-top: 20px;
@@ -171,6 +178,14 @@ body {
   max-width: 100%;
   color: #FFFFFF;
   padding: 300px 15px;
+   h1 {
+     font-size: 48px;
+     font-weight: 400;
+   }
+   p {
+     font-size: 20px;
+     font-weight: inherit;
+   }
 }
 @mixin hero-button {
     color: #FFFFFF;
@@ -217,6 +232,9 @@ body {
 .latest-header {
  padding-top: 30px;
  color: #000000;
+ font-size: 20px;
+ font-weight: 600;;
+ line-height: 24px;
 }
 
 .latest-bar {
@@ -224,7 +242,7 @@ body {
   height: 5px;
   max-width: 100%;
   background-color: #000000;
-}
+}sdsddsss
 
 
 .cards-container {
@@ -304,6 +322,15 @@ body {
 
 .cards {
   @include cards;
+  color: #000000;
+  h2 {
+    font-size: 18px;
+    font-weight: 400px;
+  }
+  p {
+    font-size: 13px;
+    line-height: 22px;
+  }
 }
 
 .cards-bar { /*black bar for cards */
@@ -456,7 +483,7 @@ body {
 .signup {
   color: #333645;
   padding: 50px 40px;
-  background-color: rgba(0, 0, 0, .05);
+  background-color: #d6d6d6;
 }
 
 .signup-field {
@@ -464,38 +491,38 @@ body {
 }
 
 
-.checkbox-area {
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
-  margin-top: 5px;
-}
-
 
 .checkbox {
-  display: block;
-  position: relative;
-  margin-top: 10px;
+  display: flex;
   cursor: pointer;
-  padding-right: 30px;
+  flex-direction: row;
+  margin-top: 10px;
 }
 
-/* hide original tickbox */
-.checkbox input {
+.checkbox-input {
+  display: none;
 }
 
-/* custom tickbox */
-.show-tickbox {
-  position: absolute;
-  top: 0;
-  left: 0;
+.checkbox-box {
   height: 30px;
   width: 30px;
   border-radius: 5px;
   border: 3px solid #333645;
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 10px;
 }
 
+.checkbox-input:checked + .checkbox-box:after {
+  content: '\2714';
+  color: #fff;
+}
 
+.checkbox-input:checked + .checkbox-box {
+  background-color: #333645;
+  color: #ffffff;
+  justify-content: center;
+}
 /*---------------------------------------------------*/
 
 /*signup subscribe button*/
