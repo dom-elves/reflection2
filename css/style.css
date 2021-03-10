@@ -1065,7 +1065,11 @@ body {
   line-height: 3.5rem;
 }
 
-/* line 320, ../../../Desktop/netmatters2/scss/style.scss */
+/*
+.news-cards .title {
+  color: $purple;
+}*/
+/* line 349, ../../../Desktop/netmatters2/scss/style.scss */
 .news {
   max-width: 100%;
   display: flex;
@@ -1077,10 +1081,37 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 347, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 360, ../../../Desktop/netmatters2/scss/style.scss */
+.news-head {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+}
+
+/* line 364, ../../../Desktop/netmatters2/scss/style.scss */
+.news-head img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  z-index: 0;
+}
+
+/* line 370, ../../../Desktop/netmatters2/scss/style.scss */
+.news-head button {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FFFFFF;
+  background-color: #C8A2C8;
+  border-style: none;
+  font-size: 12px;
+  z-index: 1;
+  right: 0;
+  top: 10px;
+  position: absolute;
+}
+
+/* line 382, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards {
-  /*typography for news cards subheading & button */
-  /*creates 3x news cards */
   text-align: left;
   height: 65%;
   max-width: 100%;
@@ -1094,13 +1125,18 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 349, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 333, ../../../Desktop/netmatters2/scss/style.scss */
+.news-cards p:nth-child(1) {
+  color: #926fb1;
+}
+
+/* line 336, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards p:nth-child(2) {
   font-size: 13px;
 }
 
-/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
-.news-cards button {
+/* line 339, ../../../Desktop/netmatters2/scss/style.scss */
+.news-cards .button-lower {
   padding: 5px 15px;
   color: #FFFFFF;
   background-color: #C8A2C8;
@@ -1109,42 +1145,65 @@ body {
   font-size: 17px;
 }
 
-/* line 362, ../../../Desktop/netmatters2/scss/style.scss */
-.news-cards .title {
-  color: #926fb1;
+/*
+
+@mixin news-cards { /
+  text-align: left;
+  height: 65%;
+  max-width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-top: none;
+  background-color: #FFFFFF;
 }
 
-/* line 366, ../../../Desktop/netmatters2/scss/style.scss */
+.news-cards {
+    @include news-cards;
+  p:nth-child(2) {
+    font-size: 13px;
+  }
+  button {
+    padding: 5px 15px;
+    color: #FFFFFF;
+    background-color: #C8A2C8;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+  }
+}
+
+.news-cards .title {
+  color: $purple;
+}
+
+
 .card-image {
-  /*image that sits atop the cards */
   object-fit: contain;
-  max-width: 100%;
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}
-
-/* line 373, ../../../Desktop/netmatters2/scss/style.scss */
-.card-head .card-head-button {
-  /*button for top right of card */
-  background-color: #926fb1;
-  right: 100%;
-  color: #FFFFFF;
-  font-size: 0.8rem;
-  border: none;
-  padding: 3px 10px;
-  z-index: 1;
-  position: absolute;
-  transform: translate(313px, 10px);
-}
-
-/* line 385, ../../../Desktop/netmatters2/scss/style.scss */
-.card-head {
   position: relative;
+  z-index: 0;
 }
 
-/* line 390, ../../../Desktop/netmatters2/scss/style.scss */
+.card-head {
+  button {
+    background-color: $purple;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border: none;
+    padding: 3px 10px;
+    z-index: 1;
+    float: right;
+  }
+}
+
+
 .grey-bar {
-  /*grey bar above news card dates */
   max-width: 100%;
   background-color: #ccc;
   height: 1px;
@@ -1152,9 +1211,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 398, ../../../Desktop/netmatters2/scss/style.scss */
 .logo-date {
-  /* logo and date stuff */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1163,18 +1220,14 @@ body {
   max-height: 47px;
 }
 
-/* line 407, ../../../Desktop/netmatters2/scss/style.scss */
 .logo-date .date {
   display: flex;
   flex-direction: column;
+  p:first-of-type {
+    color: #333645;
+  }
 }
 
-/* line 410, ../../../Desktop/netmatters2/scss/style.scss */
-.logo-date .date p:first-of-type {
-  color: #333645;
-}
-
-/* line 415, ../../../Desktop/netmatters2/scss/style.scss */
 .small-logo {
   position: relative;
   height: 47px;
@@ -1182,7 +1235,8 @@ body {
   margin-right: 30px;
 }
 
-/* line 423, ../../../Desktop/netmatters2/scss/style.scss */
+*/
+/* line 479, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors {
   display: flex;
   flex-direction: row;
@@ -1191,14 +1245,14 @@ body {
   background-image: linear-gradient(red, yellow);
 }
 
-/* line 431, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 487, ../../../Desktop/netmatters2/scss/style.scss */
 .signup {
   color: #333645;
   padding: 50px 45px;
   background-color: #d6d6d6;
 }
 
-/* line 437, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 493, ../../../Desktop/netmatters2/scss/style.scss */
 .signup-field {
   border-radius: 3px;
   border-color: rgba(85, 85, 85, 0);
@@ -1207,7 +1261,7 @@ body {
   height: 45px;
 }
 
-/* line 447, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 503, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox {
   /*typography for checkbox container */
   display: flex;
@@ -1215,25 +1269,25 @@ body {
   flex-direction: row;
 }
 
-/* line 451, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 507, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox p {
   font-weight: 600px;
   line-height: 32px;
 }
 
-/* line 454, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 510, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox p a {
   color: inherit;
   text-decoration: underline;
 }
 
-/* line 461, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 517, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input {
   /*hides original checkbox */
   display: none;
 }
 
-/* line 465, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 521, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-box {
   /*creates custom checkbox */
   height: 30px;
@@ -1245,14 +1299,14 @@ body {
   margin-right: 15px;
 }
 
-/* line 476, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 532, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input:checked + .checkbox-box:after {
   /*creates a white tick */
   content: '\2714';
   color: #fff;
 }
 
-/* line 481, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 537, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input:checked + .checkbox-box {
   /*highlights area in box */
   background-color: #333645;
@@ -1260,7 +1314,7 @@ body {
   justify-content: center;
 }
 
-/* line 489, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 545, ../../../Desktop/netmatters2/scss/style.scss */
 .subscribe-button {
   /*signup subscribe button*/
   background-color: #333645;
@@ -1271,24 +1325,24 @@ body {
 }
 
 /*footer*/
-/* line 499, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 555, ../../../Desktop/netmatters2/scss/style.scss */
 footer {
   /*typography */
 }
 
-/* line 500, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 556, ../../../Desktop/netmatters2/scss/style.scss */
 footer h4 {
   font-size: 16px;
   line-height: 17.6px;
 }
 
-/* line 504, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 560, ../../../Desktop/netmatters2/scss/style.scss */
 footer li {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 510, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 566, ../../../Desktop/netmatters2/scss/style.scss */
 .footer-container {
   background-color: #333645;
   color: #FFFFFF;
@@ -1299,25 +1353,25 @@ footer li {
   padding: 10% 5%;
 }
 
-/* line 520, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 576, ../../../Desktop/netmatters2/scss/style.scss */
 .info-block ul {
   /*formatting for everything but the socials icons*/
   padding: 0%;
 }
 
-/* line 524, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 580, ../../../Desktop/netmatters2/scss/style.scss */
 .info-box {
   list-style-type: none;
 }
 
-/* line 528, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 584, ../../../Desktop/netmatters2/scss/style.scss */
 .info-block {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
 }
 
-/* line 534, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 590, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block {
   background-color: #333645;
   color: #FFFFFF;
@@ -1327,7 +1381,7 @@ footer li {
   max-height: 100%;
 }
 
-/* line 543, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 599, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block ul {
   margin: 0%;
   padding: 0%;
@@ -1335,7 +1389,7 @@ footer li {
   flex-wrap: wrap;
 }
 
-/* line 551, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 607, ../../../Desktop/netmatters2/scss/style.scss */
 .socials {
   /*socials icons*/
   padding: 0.8rem 4rem;
@@ -1349,48 +1403,48 @@ footer li {
   font-size: 2rem;
 }
 
-/* line 566, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 622, ../../../Desktop/netmatters2/scss/style.scss */
 .facebook:hover {
   /*hover colour changes*/
   background-color: #4267B2;
 }
 
-/* line 570, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 626, ../../../Desktop/netmatters2/scss/style.scss */
 .twitter:hover {
   background-color: #1DA1F2;
 }
 
-/* line 574, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 630, ../../../Desktop/netmatters2/scss/style.scss */
 .linkedin:hover {
   background-color: #2867b2;
 }
 
 /*partners*/
-/* line 581, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 637, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images {
   margin: 50px 375px;
 }
 
-/* line 585, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 641, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images-1 {
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 
-/* line 591, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 647, ../../../Desktop/netmatters2/scss/style.scss */
 .partner-images-2 {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
-/* line 597, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 653, ../../../Desktop/netmatters2/scss/style.scss */
 .hide {
   display: none;
 }
 
-/* line 600, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 656, ../../../Desktop/netmatters2/scss/style.scss */
 .hide:hover .overlay {
   display: block;
 }
@@ -1398,7 +1452,7 @@ footer li {
 /* media queries */
 /*hides sponsors & partners for mobile viewing */
 @media screen and (min-width: 0px) and (max-width: 1024px) {
-  /* line 609, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 665, ../../../Desktop/netmatters2/scss/style.scss */
   .partner-images, .sponsors, .navbar, .navbar-box, .header-buttons, .header-support, .header-contact {
     display: none;
   }

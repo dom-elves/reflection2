@@ -314,8 +314,37 @@ body { /*base for site*/
 
 
 
-
-
+/*
+.news-cards .title {
+  color: $purple;
+}*/
+@mixin news-cards {
+  text-align: left;
+  height: 65%;
+  max-width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ccc;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-top: none;
+  background-color: #FFFFFF;
+  p:nth-child(1) {
+    color: $purple;
+  }
+  p:nth-child(2) {
+    font-size: 13px;
+  }
+  .button-lower {
+    padding: 5px 15px;
+    color: #FFFFFF;
+    background-color: #C8A2C8;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 17px;
+  }
+}
 
 .news {
   max-width: 100%;
@@ -328,9 +357,36 @@ body { /*base for site*/
   padding-bottom: 10px;
 }
 
+.news-head {
+  max-width: 100%;
+  object-fit: contain;
+  position: relative;
+  img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 0;
+    }
+  button {
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #FFFFFF;
+   background-color: #C8A2C8;
+   border-style: none;
+   font-size: 12px;
+   z-index: 1;
+   right: 0; top: 10px;
+   position: absolute;
+ }
+}
+.news-cards {
+    @include news-cards;
+  }
 
 
-@mixin news-cards { /*creates 3x news cards */
+/*
+
+@mixin news-cards { /
   text-align: left;
   height: 65%;
   max-width: 100%;
@@ -344,7 +400,7 @@ body { /*base for site*/
   background-color: #FFFFFF;
 }
 
-.news-cards { /*typography for news cards subheading & button */
+.news-cards {
     @include news-cards;
   p:nth-child(2) {
     font-size: 13px;
@@ -363,31 +419,30 @@ body { /*base for site*/
   color: $purple;
 }
 
-.card-image { /*image that sits atop the cards */
+
+.card-image {
   object-fit: contain;
-  max-width: 100%;
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-}
-
-.card-head .card-head-button { /*button for top right of card */
-  background-color: $purple;
-  right: 100%;
-  color: #FFFFFF;
-  font-size: 0.8rem;
-  border: none;
-  padding: 3px 10px;
-  z-index: 1;
-  position: absolute;
-  transform: translate(313px, 10px);
+  position: relative;
+  z-index: 0;
 }
 
 .card-head {
- position: relative;
+  button {
+    background-color: $purple;
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    border: none;
+    padding: 3px 10px;
+    z-index: 1;
+    float: right;
+  }
 }
 
 
-.grey-bar { /*grey bar above news card dates */
+.grey-bar {
   max-width: 100%;
   background-color: #ccc;
   height: 1px;
@@ -395,7 +450,7 @@ body { /*base for site*/
   margin-bottom: 30px;
 }
 
-.logo-date { /* logo and date stuff */
+.logo-date {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -419,6 +474,7 @@ body { /*base for site*/
   margin-right: 30px;
 }
 
+*/
 
 .sponsors {
   display: flex;
