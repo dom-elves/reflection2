@@ -60,6 +60,7 @@ body { /*base for site*/
   display: flex;
   flex-flow: row wrap;
   align-items: stretch;
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px;
    form {
      flex-grow: 1;
    }
@@ -72,7 +73,6 @@ body { /*base for site*/
   border-bottom-left-radius: 5px;
   float: left;
   background-color: #d6d6d6;
-  border-color: #999aa2;
 }
 
 .header-search-button {
@@ -81,11 +81,9 @@ body { /*base for site*/
   color: #333645;
   font-size: 1.5rem;
   border-left: none;
-  border-color: #ccc;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   background-color: #d6d6d6;
-
 }
 
 
@@ -222,138 +220,99 @@ body { /*base for site*/
   padding-top: 20px;
 }
 
-@mixin circle { /*mixin to create the little circle on the cards */
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  margin-left: 40%;
-  margin-right: 40%;
-  color: #FFFFFF;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-  justify-content: center;
-} /*background circle on cards */
 
-.movedown { /*moves the circle into the right place on Y axis */
-  line-height: 3.5rem;
-}
-
-.circle-bespoke { /*7x classes to change background of each circle */
-  @include circle;
-  background-color: $slate;
-}
-
-.circle-it {
-  @include circle;
-  background-color: $blue;
-}
-
-.circle-digital {
-  @include circle;
-  background-color: $green;
-}
-
-.circle-telecoms {
-  @include circle;
-  background-color: $red;
-}
-
-.circle-web {
-  @include circle;
-  background-color: $purple;
-}
-
-.circle-cyber {
-  @include circle;
-  background-color: $pink;
-}
-
-.circle-dev {
-  @include circle;
-  background-color: $purple;
-}
-
-
-@mixin cards { /* creates the cards */
-  text-align: center;
-  max-height: none;
-  max-width: 100%;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  justify-content: center;
-  padding: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 35px;
-  background-color: #ffffff;
-  box-shadow: 0 10px 6px -6px;
-}
-
-
-.cards { /*typography adjustments for the 7 cards */
-  @include cards;
-  color: #000000;
-  h2 {
-    font-size: 18px;
-    font-weight: 400px;
+@each $theme, $color in $themes { /*each loop to colour card elements */
+  .cards-#{$theme}:hover {
+    background-color: $color;
+    border-color: $color;
+    p {
+      color: #FFFFFF;
+    }
+    h2 {
+      color: #FFFFFF;
+    }
+    button {
+      background-color: #FFFFFF;
+    }
+    .cards-bar {
+      background-color: #FFFFFF;
+    }
+    .circle-#{$theme} {
+      background-color: #FFFFFF;
+      color: $color
+    }
+    .button-#{$theme} {
+      color: $color
+    }
   }
-  p {
-    font-size: 13px;
-    line-height: 22px;
+  .cards-#{$theme} .button-#{$theme} {
+    background-color: $color
   }
+  .cards-#{$theme} .circle-#{$theme} {
+    background-color: $color
+  }
+
 }
 
-.cards-bar { /*black bar for cards */
-  height: 3px;
-  width: 30px;
-  background-color: #000000;
-  margin-left: 45%;
-  margin-right: 45%;
-  margin-bottom: 20px;
-  margin-top: 20px;
+
+@for $i from 1 through 7 { /*for loop to create black & white cards */
+  .cards-#{$i} {
+    text-align: center;
+    max-height: none;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 35px 0px;
+    cursor: pointer;
+    color: #000000;
+    background-color: #FFFFFF;
+    h2 {
+      font-size: 18px;
+      font-weight: 400px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 22px;
+      }
+
+  .button-#{$i} {
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+   }
+   .cards-bar {
+     height: 3px;
+     width: 30px;
+     background-color: #000000;
+     margin-left: 45%;
+     margin-right: 45%;
+     margin-bottom: 20px;
+     margin-top: 20px;
+   }
+   .circle-#{$i} {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     margin-left: 40%;
+     margin-right: 40%;
+     font-size: 1.1rem;
+     margin-bottom: 1rem;
+     justify-content: center;
+     color: #FFFFFF;
+   }
+   .movedown {
+     line-height: 3.5rem;
+   }
+}
 }
 
-@mixin cards-button { /*button without colour for cards, below is each background colour */
-  color: #FFFFFF;
-  padding: 10px;
-  border-radius: 5px;
-  border-style: none;
-}
 
-.cards-button-bespoke {
-  @include cards-button;
-  background-color: $slate;
-}
-
-.cards-button-it {
-  @include cards-button;
-  background-color: $blue;
-}
-
-.cards-button-digital {
-  @include cards-button;
-  background-color: $green;
-}
-
-.cards-button-telecoms {
-  @include cards-button;
-  background-color: $red;
-}
-
-.cards-button-web {
-  @include cards-button;
-  background-color: $purple;
-}
-
-.cards-button-cyber {
-  @include cards-button;
-  background-color: $pink;
-}
-
-.cards-button-dev {
-  @include cards-button;
-  background-color: $purple;
-}
 
 
 
@@ -365,7 +324,7 @@ body { /*base for site*/
   justify-content: center;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 30px;
+  padding-top: 45px;
   padding-bottom: 10px;
 }
 
@@ -382,6 +341,7 @@ body { /*base for site*/
   padding: 30px;
   margin-bottom: 30px;
   border-top: none;
+  background-color: #FFFFFF;
 }
 
 .news-cards { /*typography for news cards subheading & button */
