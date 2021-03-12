@@ -24,13 +24,5 @@ $themes: (
 // Breakpoints
 $break-xs: 767px;
 $break-sm: 768px;
-$break-med: 768px;
-$break-lg: 992px;
-$break-xl: 1260px;
-
-$breakpoints: (
-  'xs':767px,
-  'sm': 768px,
-  'med': 768px,
-  'lg': 992px,
-  'xl': 1260px );
+$break-md: 992px;
+$break-lg: 1260px;
