@@ -186,7 +186,7 @@ body { /*base for site*/
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -100%; /*CHANGE THIS LATER */
+    bottom: -30%; /*CHANGE THIS LATER */
   }
 }
 }
@@ -622,6 +622,10 @@ body { /*base for site*/
   max-height: 100%;
   padding: 45px 15px;
 
+  .socials-block, .info-block {
+    flex-grow: 1;
+  }
+
   .socials-block {
     margin-left: -15px;
     h4 {
@@ -635,12 +639,18 @@ body { /*base for site*/
     flex-wrap: wrap;
     max-width: 100%;
     max-height: 100%;
-   button {
-    padding: 15px;
-    display: flex;
+
+   .facebook, .twitter, .linkedin {
+      padding: 15px;
+      display: block;
+      width: 50%;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
    }
+ }
     i {
-      padding: 0.8rem 4rem;
+    /*  padding: 0.8rem 4rem; */
       border: none;
       color: #FFFFFF;
       background-color: rgba(0,0,0,.25);
@@ -648,22 +658,23 @@ body { /*base for site*/
       justify-content: center;
       font-size: 2rem;
       flex-wrap: wrap;
-      width: 45%;
+      padding-top: 11px;
+      padding-bottom: 11px;
    }
   }
-}
 
 
 
-.facebook:hover {
+
+.facebook:hover i {
   background-color: #4267B2;
 }
 
-.twitter:hover {
+.twitter:hover i {
   background-color: #1DA1F2;
 }
 
-.linkedin:hover {
+.linkedin:hover i {
   background-color: #2867b2;
 }
 
@@ -774,6 +785,12 @@ body { /*base for site*/
     }
   }
 }
+@media screen and (min-width: $break-sm) and (max-width: $break-md) {
+  .info-block, .socials-block {
+    width: 50%;
+    flex-grow: 1;
+  }
+}
 
 
 @media screen and (min-width: $break-sm) {
@@ -867,7 +884,11 @@ body { /*base for site*/
         max-width: 270px;
       }
      }
+     .info-block, .socials-block {
+       width: 25%;
+       flex-grow: 1;
   }
+}
 
 /*
   @mixin mq($break) {
