@@ -131,8 +131,16 @@ body {
   border: none;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 110, ../../../Desktop/netmatters2/scss/style.scss */
+.navbar {
+  justify-content: center;
+  display: flex;
+  background-color: #333645;
+  padding: 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-1 {
   text-align: center;
   max-height: 99px;
@@ -140,20 +148,28 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-1 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-1 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-1 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-2 {
   text-align: center;
   max-height: 99px;
@@ -161,20 +177,28 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-2 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-2 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-2 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-3 {
   text-align: center;
   max-height: 99px;
@@ -182,20 +206,28 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-3 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-3 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-3 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-4 {
   text-align: center;
   max-height: 99px;
@@ -203,20 +235,28 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-4 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-4 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-4 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-5 {
   text-align: center;
   max-height: 99px;
@@ -224,20 +264,28 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-5 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-5 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*for loop to create black & white cards */
-/* line 112, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-5 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
+}
+
+/*for loop to create navbar boxes */
+/* line 118, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-6 {
   text-align: center;
   max-height: 99px;
@@ -245,39 +293,333 @@ body {
   cursor: pointer;
   color: #FFFFFF;
   background-color: #333645;
+  align-items: center;
+  display: flex;
+  padding: 20px 0px;
 }
 
-/* line 120, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 130, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-6 ul {
   list-style-type: none;
 }
 
-/* line 122, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 132, ../../../Desktop/netmatters2/scss/style.scss */
 .nav-6 ul li:nth-child(2) {
   font-size: 10px;
 }
 
-/*
-.navbar {
-  display: flex;
-  justify-content: center !important;
-  background-color: #333645;
-  padding: 0px !important;
+/* line 134, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-6 ul li:nth-child(2) li:nth-child(1, 3) {
+  font-size: 18px;
 }
 
-.navbar-box {
-  list-style-type: none;
-  background-color: #333645;
-  color: #FFFFFF;
-  padding-top: 10px;
-  padding-right: 60px;
-  padding-left: 60px;
-  padding-bottom: 10px;
-  text-align: center;
-  margin-bottom: 0px;
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-1 ul li:nth-child(1) {
+  color: #926fb1;
 }
-*/
+
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-2 ul li:nth-child(1) {
+  color: #4183d7;
+}
+
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-3 ul li:nth-child(1) {
+  color: #d64541;
+}
+
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-4 ul li:nth-child(1) {
+  color: #67809f;
+}
+
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-5 ul li:nth-child(1) {
+  color: #2ecc71;
+}
+
+/*each loop to color navbar elements */
+/* line 145, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-6 ul li:nth-child(1) {
+  color: #d64541;
+}
+
+/*each loop for navbar element hover states */
 /* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-1:hover {
+  background-color: #926fb1;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-1:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*each loop for navbar element hover states */
+/* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-2:hover {
+  background-color: #4183d7;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-2:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*each loop for navbar element hover states */
+/* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-3:hover {
+  background-color: #d64541;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-3:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*each loop for navbar element hover states */
+/* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-4:hover {
+  background-color: #67809f;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-4:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*each loop for navbar element hover states */
+/* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-5:hover {
+  background-color: #2ecc71;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-5:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*each loop for navbar element hover states */
+/* line 153, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-6:hover {
+  background-color: #d64541;
+}
+
+/* line 156, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-6:hover ul li:nth-child(1) {
+  color: #FFFFFF;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-1 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-1 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-1 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-2 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-2 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-2 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-3 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-3 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-3 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-4 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-4 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-4 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-5 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-5 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-5 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for loop to create navbar boxes */
+/* line 165, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-6 {
+  display: none;
+  width: 100%;
+}
+
+/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-6 ul {
+  text-align: center;
+}
+
+/* line 171, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-6 li {
+  list-style-type: none;
+  display: inline;
+  color: #FFFFFF;
+  font-size: 13px;
+  padding: 0px 5px 5px 0px;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-1:hover .navdown-1 {
+  display: inline;
+  position: absolute;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-2:hover .navdown-2 {
+  display: inline;
+  position: absolute;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-3:hover .navdown-3 {
+  display: inline;
+  position: absolute;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-4:hover .navdown-4 {
+  display: inline;
+  position: absolute;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-5:hover .navdown-5 {
+  display: inline;
+  position: absolute;
+}
+
+/*for to create dropdown menus */
+/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+.nav-6:hover .navdown-6 {
+  display: inline;
+  position: absolute;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-1 {
+  background-color: #926fb1;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-2 {
+  background-color: #4183d7;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-3 {
+  background-color: #d64541;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-4 {
+  background-color: #67809f;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-5 {
+  background-color: #2ecc71;
+}
+
+/*each loop for navbar element hover states */
+/* line 192, ../../../Desktop/netmatters2/scss/style.scss */
+.navdown-6 {
+  background-color: #d64541;
+}
+
+/* line 206, ../../../Desktop/netmatters2/scss/style.scss */
 .hero {
   /*hero banner */
   background: url("../bio-image/bio-web.jpg") no-repeat center;
@@ -285,7 +627,7 @@ body {
   height: 740px;
 }
 
-/* line 159, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 212, ../../../Desktop/netmatters2/scss/style.scss */
 .hero-text {
   text-align: center;
   max-width: 100%;
@@ -293,19 +635,19 @@ body {
   padding: 300px 15px;
 }
 
-/* line 164, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 217, ../../../Desktop/netmatters2/scss/style.scss */
 .hero-text h1 {
   font-size: 48px;
   font-weight: 400;
 }
 
-/* line 168, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 221, ../../../Desktop/netmatters2/scss/style.scss */
 .hero-text p {
   font-size: 20px;
   font-weight: inherit;
 }
 
-/* line 183, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 236, ../../../Desktop/netmatters2/scss/style.scss */
 .hero-button {
   /*pointless mixin for hero button, was used elsewhere but deemed redundant */
   color: #FFFFFF;
@@ -317,7 +659,7 @@ body {
   line-height: 50px;
 }
 
-/* line 189, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 242, ../../../Desktop/netmatters2/scss/style.scss */
 .bio {
   /*netmatters bio further down the page */
   max-width: 100%;
@@ -327,7 +669,7 @@ body {
   line-height: 2;
 }
 
-/* line 199, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 252, ../../../Desktop/netmatters2/scss/style.scss */
 .bio-button {
   /*button for bio section*/
   background-color: #fff;
@@ -337,7 +679,7 @@ body {
   color: #333645;
 }
 
-/* line 207, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-master {
   /*anything beginning with .latest is for the little bit that literally just says 'latest' with a bar below it */
   display: flex;
@@ -345,14 +687,14 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 212, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 265, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-container {
   display: flex;
   flex-direction: column;
   padding-left: 10px;
 }
 
-/* line 218, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-header {
   padding-top: 30px;
   color: #000000;
@@ -361,7 +703,7 @@ body {
   line-height: 24px;
 }
 
-/* line 226, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
 .latest-bar {
   /*black bar*/
   margin-top: 30px;
@@ -370,7 +712,7 @@ body {
   background-color: #000000;
 }
 
-/* line 234, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 287, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-container {
   /*7 cards for services netmatters offers */
   display: flex;
@@ -382,343 +724,343 @@ body {
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover {
   background-color: #926fb1;
   border-color: #926fb1;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover .circle-7 {
   background-color: #FFFFFF;
   color: #926fb1;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7:hover .button-7 {
   color: #926fb1;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .button-7 {
   background-color: #926fb1;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .circle-7 {
   background-color: #926fb1;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover {
   background-color: #67809f;
   border-color: #67809f;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover .circle-1 {
   background-color: #FFFFFF;
   color: #67809f;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1:hover .button-1 {
   color: #67809f;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .button-1 {
   background-color: #67809f;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .circle-1 {
   background-color: #67809f;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover {
   background-color: #4183d7;
   border-color: #4183d7;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover .circle-2 {
   background-color: #FFFFFF;
   color: #4183d7;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2:hover .button-2 {
   color: #4183d7;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .button-2 {
   background-color: #4183d7;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .circle-2 {
   background-color: #4183d7;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover {
   background-color: #2ecc71;
   border-color: #2ecc71;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover .circle-3 {
   background-color: #FFFFFF;
   color: #2ecc71;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3:hover .button-3 {
   color: #2ecc71;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .button-3 {
   background-color: #2ecc71;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .circle-3 {
   background-color: #2ecc71;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover {
   background-color: #d64541;
   border-color: #d64541;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover .circle-4 {
   background-color: #FFFFFF;
   color: #d64541;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4:hover .button-4 {
   color: #d64541;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .button-4 {
   background-color: #d64541;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .circle-4 {
   background-color: #d64541;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover {
   background-color: #f62459;
   border-color: #f62459;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover .circle-6 {
   background-color: #FFFFFF;
   color: #f62459;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6:hover .button-6 {
   color: #f62459;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .button-6 {
   background-color: #f62459;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .circle-6 {
   background-color: #f62459;
 }
 
 /*each loop to colour card elements */
-/* line 245, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 298, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover {
   background-color: #926fb1;
   border-color: #926fb1;
 }
 
-/* line 248, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 301, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover p {
   color: #FFFFFF;
 }
 
-/* line 251, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover h2 {
   color: #FFFFFF;
 }
 
-/* line 254, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 307, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover button {
   background-color: #FFFFFF;
 }
 
-/* line 257, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover .cards-bar {
   background-color: #FFFFFF;
 }
 
-/* line 260, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 313, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover .circle-5 {
   background-color: #FFFFFF;
   color: #926fb1;
 }
 
-/* line 264, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 317, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5:hover .button-5 {
   color: #926fb1;
 }
 
-/* line 268, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 321, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .button-5 {
   background-color: #926fb1;
 }
 
-/* line 271, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 324, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .circle-5 {
   background-color: #926fb1;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 {
   text-align: center;
   max-height: none;
@@ -736,19 +1078,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .button-1 {
   color: #FFFFFF;
   padding: 10px;
@@ -756,7 +1098,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -768,7 +1110,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .circle-1 {
   /*circle icon*/
   height: 60px;
@@ -783,13 +1125,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-1 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 {
   text-align: center;
   max-height: none;
@@ -807,19 +1149,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .button-2 {
   color: #FFFFFF;
   padding: 10px;
@@ -827,7 +1169,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -839,7 +1181,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .circle-2 {
   /*circle icon*/
   height: 60px;
@@ -854,13 +1196,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-2 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 {
   text-align: center;
   max-height: none;
@@ -878,19 +1220,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .button-3 {
   color: #FFFFFF;
   padding: 10px;
@@ -898,7 +1240,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -910,7 +1252,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .circle-3 {
   /*circle icon*/
   height: 60px;
@@ -925,13 +1267,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-3 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 {
   text-align: center;
   max-height: none;
@@ -949,19 +1291,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .button-4 {
   color: #FFFFFF;
   padding: 10px;
@@ -969,7 +1311,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -981,7 +1323,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .circle-4 {
   /*circle icon*/
   height: 60px;
@@ -996,13 +1338,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-4 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 {
   text-align: center;
   max-height: none;
@@ -1020,19 +1362,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .button-5 {
   color: #FFFFFF;
   padding: 10px;
@@ -1040,7 +1382,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -1052,7 +1394,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .circle-5 {
   /*circle icon*/
   height: 60px;
@@ -1067,13 +1409,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-5 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 {
   text-align: center;
   max-height: none;
@@ -1091,19 +1433,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .button-6 {
   color: #FFFFFF;
   padding: 10px;
@@ -1111,7 +1453,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -1123,7 +1465,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .circle-6 {
   /*circle icon*/
   height: 60px;
@@ -1138,13 +1480,13 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-6 .movedown {
   line-height: 3.5rem;
 }
 
 /*for loop to create black & white cards */
-/* line 279, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 332, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 {
   text-align: center;
   max-height: none;
@@ -1162,19 +1504,19 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 295, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 h2 {
   font-size: 18px;
   font-weight: 400px;
 }
 
-/* line 299, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 352, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 p {
   font-size: 13px;
   line-height: 22px;
 }
 
-/* line 304, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 357, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .button-7 {
   color: #FFFFFF;
   padding: 10px;
@@ -1182,7 +1524,7 @@ body {
   border-style: none;
 }
 
-/* line 310, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 363, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .cards-bar {
   /*black divide bar*/
   height: 3px;
@@ -1194,7 +1536,7 @@ body {
   display: inline-block;
 }
 
-/* line 319, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 372, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .circle-7 {
   /*circle icon*/
   height: 60px;
@@ -1209,12 +1551,12 @@ body {
   display: inline-block;
 }
 
-/* line 331, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 384, ../../../Desktop/netmatters2/scss/style.scss */
 .cards-7 .movedown {
   line-height: 3.5rem;
 }
 
-/* line 389, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 442, ../../../Desktop/netmatters2/scss/style.scss */
 .news {
   /*container for news section*/
   max-width: 100%;
@@ -1227,7 +1569,7 @@ body {
   padding-bottom: 10px;
 }
 
-/* line 400, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 453, ../../../Desktop/netmatters2/scss/style.scss */
 .news-head {
   /*header for news cards: image & news button*/
   max-width: 100%;
@@ -1235,15 +1577,24 @@ body {
   position: relative;
 }
 
-/* line 404, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 457, ../../../Desktop/netmatters2/scss/style.scss */
 .news-head img {
   width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   z-index: 0;
+  transition: .3s;
 }
 
-/* line 410, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 464, ../../../Desktop/netmatters2/scss/style.scss */
+.news-head img:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* line 470, ../../../Desktop/netmatters2/scss/style.scss */
 .news-head button {
   padding-left: 10px;
   padding-right: 10px;
@@ -1257,7 +1608,7 @@ body {
   position: absolute;
 }
 
-/* line 423, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 483, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards {
   /*mixin to create news cards, includes typography and layout*/
   text-align: left;
@@ -1272,36 +1623,36 @@ body {
   background-color: #FFFFFF;
 }
 
-/* line 348, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 401, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards p:nth-child(1) {
   color: #926fb1;
 }
 
-/* line 351, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 404, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards p:nth-child(2) {
   font-size: 13px;
 }
 
-/* line 354, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 407, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .footer {
   /*small logo & date*/
   display: flex;
   flex-direction: row;
 }
 
-/* line 358, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 411, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .date {
   display: flex;
   flex-direction: column;
 }
 
-/* line 361, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 414, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .date p:nth-child(1) {
   color: #333645;
   size: 14px !important;
 }
 
-/* line 366, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 419, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .button-lower {
   /*read more button*/
   padding: 5px 15px;
@@ -1312,7 +1663,7 @@ body {
   font-size: 17px;
 }
 
-/* line 374, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 427, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .grey-bar {
   /*dividing grey bar*/
   max-width: 100%;
@@ -1322,7 +1673,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 381, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 434, ../../../Desktop/netmatters2/scss/style.scss */
 .news-cards .small-logo {
   position: relative;
   height: 47px;
@@ -1330,7 +1681,7 @@ body {
   margin-right: 20px;
 }
 
-/* line 431, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 491, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors {
   display: flex;
   background-color: #FFFFFF;
@@ -1338,10 +1689,10 @@ body {
   flex-direction: row;
   max-width: 100%;
   object-fit: contain;
-  justify-content: center;
+  align-items: center;
 }
 
-/* line 439, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 499, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors img {
   max-width: 100%;
   flex-shrink: 1;
@@ -1349,34 +1700,34 @@ body {
   cursor: pointer;
 }
 
-/* line 445, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 505, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors .img {
   margin: 50px 20px;
 }
 
-/* line 447, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 507, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors .img .colour {
   display: none;
 }
 
-/* line 450, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 510, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors .img .grey:hover {
   display: none;
 }
 
-/* line 452, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 512, ../../../Desktop/netmatters2/scss/style.scss */
 .sponsors .img .grey:hover + .colour {
   display: block;
 }
 
-/* line 460, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 520, ../../../Desktop/netmatters2/scss/style.scss */
 .signup {
   color: #333645;
   padding: 50px 45px;
   background-color: #d6d6d6;
 }
 
-/* line 466, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 526, ../../../Desktop/netmatters2/scss/style.scss */
 .signup-field {
   border-radius: 3px;
   border-color: rgba(85, 85, 85, 0);
@@ -1385,7 +1736,7 @@ body {
   height: 45px;
 }
 
-/* line 476, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 536, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox {
   /*typography for checkbox container */
   display: flex;
@@ -1393,25 +1744,25 @@ body {
   flex-direction: row;
 }
 
-/* line 480, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 540, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox p {
   font-weight: 600px;
   line-height: 32px;
 }
 
-/* line 483, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 543, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox p a {
   color: inherit;
   text-decoration: underline;
 }
 
-/* line 490, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 550, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input {
   /*hides original checkbox */
   display: none;
 }
 
-/* line 494, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 554, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-box {
   /*creates custom checkbox */
   height: 30px;
@@ -1423,14 +1774,14 @@ body {
   margin-right: 15px;
 }
 
-/* line 505, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 565, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input:checked + .checkbox-box:after {
   /*creates a white tick */
   content: '\2714';
   color: #fff;
 }
 
-/* line 510, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 570, ../../../Desktop/netmatters2/scss/style.scss */
 .checkbox-input:checked + .checkbox-box {
   /*highlights area in box */
   background-color: #333645;
@@ -1438,7 +1789,7 @@ body {
   justify-content: center;
 }
 
-/* line 518, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 578, ../../../Desktop/netmatters2/scss/style.scss */
 .subscribe-button {
   /*signup subscribe button*/
   background-color: #333645;
@@ -1449,25 +1800,25 @@ body {
 }
 
 /*footer*/
-/* line 528, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 588, ../../../Desktop/netmatters2/scss/style.scss */
 footer {
   /*typography */
 }
 
-/* line 529, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 589, ../../../Desktop/netmatters2/scss/style.scss */
 footer h4 {
   font-size: 16px;
   line-height: 17.6px;
 }
 
-/* line 533, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 593, ../../../Desktop/netmatters2/scss/style.scss */
 footer p {
   font-size: 13px;
   line-height: 22px;
   display: inline;
 }
 
-/* line 540, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 600, ../../../Desktop/netmatters2/scss/style.scss */
 .footer-container {
   background-color: #333645;
   color: #FFFFFF;
@@ -1478,7 +1829,7 @@ footer p {
   padding: 45px 15px;
 }
 
-/* line 550, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 610, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block {
   background-color: #333645;
   display: flex;
@@ -1489,7 +1840,7 @@ footer p {
   flex-direction: row;
 }
 
-/* line 558, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 618, ../../../Desktop/netmatters2/scss/style.scss */
 .socials-block button {
   padding: 0.8rem 4rem;
   border: none;
@@ -1502,23 +1853,23 @@ footer p {
   margin: 15px;
 }
 
-/* line 571, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 631, ../../../Desktop/netmatters2/scss/style.scss */
 .facebook:hover {
   background-color: #4267B2;
 }
 
-/* line 575, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 635, ../../../Desktop/netmatters2/scss/style.scss */
 .twitter:hover {
   background-color: #1DA1F2;
 }
 
-/* line 579, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 639, ../../../Desktop/netmatters2/scss/style.scss */
 .linkedin:hover {
   background-color: #2867b2;
 }
 
 /*partners*/
-/* line 586, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 646, ../../../Desktop/netmatters2/scss/style.scss */
 .partners {
   display: flex;
   background-color: #FFFFFF;
@@ -1529,7 +1880,7 @@ footer p {
   flex-direction: column;
 }
 
-/* line 595, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 655, ../../../Desktop/netmatters2/scss/style.scss */
 .toprow {
   display: flex;
   flex-direction: row;
@@ -1538,7 +1889,7 @@ footer p {
   object-fit: contain;
 }
 
-/* line 601, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 661, ../../../Desktop/netmatters2/scss/style.scss */
 .toprow img {
   max-width: 100%;
   flex-shrink: 1;
@@ -1548,22 +1899,22 @@ footer p {
   padding-right: 20px;
 }
 
-/* line 610, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 670, ../../../Desktop/netmatters2/scss/style.scss */
 .toprow .img .colour {
   display: none;
 }
 
-/* line 613, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 673, ../../../Desktop/netmatters2/scss/style.scss */
 .toprow .img .grey:hover {
   display: none;
 }
 
-/* line 615, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 675, ../../../Desktop/netmatters2/scss/style.scss */
 .toprow .img .grey:hover + .colour {
   display: block;
 }
 
-/* line 622, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 682, ../../../Desktop/netmatters2/scss/style.scss */
 .bottomrow {
   display: flex;
   flex-direction: row;
@@ -1572,7 +1923,7 @@ footer p {
   object-fit: contain;
 }
 
-/* line 628, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 688, ../../../Desktop/netmatters2/scss/style.scss */
 .bottomrow img {
   max-width: 100%;
   object-fit: contain;
@@ -1581,17 +1932,17 @@ footer p {
   padding-right: 20px;
 }
 
-/* line 636, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 696, ../../../Desktop/netmatters2/scss/style.scss */
 .bottomrow .img .colour {
   display: none;
 }
 
-/* line 639, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 699, ../../../Desktop/netmatters2/scss/style.scss */
 .bottomrow .img .grey:hover {
   display: none;
 }
 
-/* line 641, ../../../Desktop/netmatters2/scss/style.scss */
+/* line 701, ../../../Desktop/netmatters2/scss/style.scss */
 .bottomrow .img .grey:hover + .colour {
   display: block;
 }
@@ -1599,142 +1950,173 @@ footer p {
 /* media queries */
 /*hides sponsors, partners & navbar for mobile viewing */
 @media screen and (min-width: 0px) and (max-width: 1260px) {
-  /* line 657, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 717, ../../../Desktop/netmatters2/scss/style.scss */
   .partners, .sponsors, .navbar, .navbar-box, .header-buttons, .header-support, .header-contact {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 664, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 724, ../../../Desktop/netmatters2/scss/style.scss */
   .sponsors {
     /*displays sponsors on small screens & up */
     display: flex;
   }
-  /* line 667, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 727, ../../../Desktop/netmatters2/scss/style.scss */
   .partners {
     /*displays partners on small screens & up */
     display: flex;
   }
-  /* line 670, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 730, ../../../Desktop/netmatters2/scss/style.scss */
   .news {
     display: flex;
     flex-direction: row;
   }
-  /* line 673, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 733, ../../../Desktop/netmatters2/scss/style.scss */
   .news .nc3 {
     /*hides third news card on small screens */
     display: none;
   }
-  /* line 676, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 736, ../../../Desktop/netmatters2/scss/style.scss */
   .news .nc1, .news .nc2 {
     /*specifies width and changes flex to row on small screens */
     margin: 10px;
     width: 345px;
   }
+  /* line 741, ../../../Desktop/netmatters2/scss/style.scss */
+  .header-container-bottom {
+    display: none;
+  }
+  /* line 745, ../../../Desktop/netmatters2/scss/style.scss */
+  .header-container .phone {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 686, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 753, ../../../Desktop/netmatters2/scss/style.scss */
   .news {
     /*sets width for news cards 1 & 2 */
   }
-  /* line 687, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 754, ../../../Desktop/netmatters2/scss/style.scss */
   .news .nc1, .news .nc2 {
     width: 455px;
   }
   /*sets width for services card 4-7*/
-  /* line 692, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 759, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-4 {
     max-width: 354px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   /*sets width for services card 4-7*/
-  /* line 692, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 759, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-5 {
     max-width: 354px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   /*sets width for services card 4-7*/
-  /* line 692, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 759, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-6 {
     max-width: 354px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   /*sets width for services card 4-7*/
-  /* line 692, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 759, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-7 {
     max-width: 354px;
     flex-direction: row;
     flex-wrap: wrap;
   }
   /*sets width for services card 1-3*/
-  /* line 699, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 766, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-1 {
     max-width: 720px;
     justify-content: center;
   }
   /*sets width for services card 1-3*/
-  /* line 699, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 766, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-2 {
     max-width: 720px;
     justify-content: center;
   }
   /*sets width for services card 1-3*/
-  /* line 699, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 766, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-3 {
     max-width: 720px;
     justify-content: center;
+  }
+  /* line 771, ../../../Desktop/netmatters2/scss/style.scss */
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
 @media screen and (min-width: 992px) {
   /*sets width for services card 1-3*/
-  /* line 708, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 782, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-1 {
     max-width: 293px;
   }
   /*sets width for services card 1-3*/
-  /* line 708, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 782, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-2 {
     max-width: 293px;
   }
   /*sets width for services card 1-3*/
-  /* line 708, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 782, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-3 {
     max-width: 293px;
   }
   /*sets width for services card 4-7*/
-  /* line 713, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 787, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-4 {
     max-width: 455px;
   }
   /*sets width for services card 4-7*/
-  /* line 713, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 787, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-5 {
     max-width: 455px;
   }
   /*sets width for services card 4-7*/
-  /* line 713, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 787, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-6 {
     max-width: 455px;
   }
   /*sets width for services card 4-7*/
-  /* line 713, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 787, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-7 {
     max-width: 455px;
   }
-  /* line 717, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 791, ../../../Desktop/netmatters2/scss/style.scss */
   .navbar, .navbar-box {
     display: flex;
   }
+  /* line 794, ../../../Desktop/netmatters2/scss/style.scss */
+  .hero-text, .hero-button {
+    float: left;
+    text-align: left;
+  }
+  /* line 798, ../../../Desktop/netmatters2/scss/style.scss */
+  .signup {
+    align-items: center;
+  }
+  /* line 800, ../../../Desktop/netmatters2/scss/style.scss */
+  .signup .signup-field {
+    display: inline-block;
+  }
+  /*.bio {
+  background: url("../background-image/background-logo.png") no-repeat center;
+} */
 }
 
 @media screen and (min-width: 1260px) {
-  /* line 726, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 814, ../../../Desktop/netmatters2/scss/style.scss */
   .news .nc3 {
     /*display news card 3 on XL & resizes*/
     display: flex;
@@ -1742,44 +2124,44 @@ footer p {
     width: 370px;
     margin: 15px;
   }
-  /* line 732, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 820, ../../../Desktop/netmatters2/scss/style.scss */
   .news .nc1, .news .nc2 {
     /*resizes news cards 1 & 2 on XL */
     width: 370px;
     margin: 15px;
   }
   /*sets width for services card 1-3*/
-  /* line 738, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 826, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-1 {
     max-width: 370px;
   }
   /*sets width for services card 1-3*/
-  /* line 738, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 826, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-2 {
     max-width: 370px;
   }
   /*sets width for services card 1-3*/
-  /* line 738, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 826, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-3 {
     max-width: 370px;
   }
   /*sets width for services card 4-7*/
-  /* line 743, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 831, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-4 {
     max-width: 270px;
   }
   /*sets width for services card 4-7*/
-  /* line 743, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 831, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-5 {
     max-width: 270px;
   }
   /*sets width for services card 4-7*/
-  /* line 743, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 831, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-6 {
     max-width: 270px;
   }
   /*sets width for services card 4-7*/
-  /* line 743, ../../../Desktop/netmatters2/scss/style.scss */
+  /* line 831, ../../../Desktop/netmatters2/scss/style.scss */
   .cards-7 {
     max-width: 270px;
   }
